@@ -3,13 +3,13 @@
  * File: alpha_test.go
  */
 
-package folders
+package alpha
 
 import (
 	"testing"
 )
 
-func TestFlip(t *testing.T) {
+func TestAlpha(t *testing.T) {
 	if got := RunAlpha(); got != true && got != false {
 		t.Errorf("RunAlpha() = %t, didn't return true or false", got)
 	}
